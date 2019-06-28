@@ -1,4 +1,61 @@
 #collections{
     height: 100vh;
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    background-color: #34495e;
+   
 }
+
+.collection-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 70vw;
+}
+.collection-contents img {
+    width: 30vw;
+    height: 35vh;
+    background-color: rgb(27, 27, 124)
+        
+}
+.collection-contents h2{
+    position: absolute; 
+    font-size: 34px;
+    color: #000000;
+    line-height: 60px;
+    
+  
+}
+
+.item-bedroom:hover img{
+    opacity: 0.5;
+    /* filter: grayscale(100%); */
+}
+
+.item-bathroom:hover img{
+    opacity: 0.5;
+    /* filter: grayscale(100%); */
+}
+
+.collection-contents * {
+    transition: all .35s ease-in-out;
+  }
+
+.collection-contents h2{
+    transform: translate(50%, -300%) scale(0);
+    transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.item-bedroom:hover h2{
+    transform: translate(50%, -300%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+  
+.item-bathroom:hover h2 {
+    transform: translate(50%, -300%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
