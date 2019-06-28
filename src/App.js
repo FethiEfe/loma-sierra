@@ -1,18 +1,16 @@
 import React from 'react';
+import {BrowserRouter} from "react-router-dom"
+import routes from "./components/routes"
 import Navbar from "./components/Navbar/Navbar"
-import Home from "./components/Home/Home"
-import Collections from "./components/Collections/Collections"
-import About from "./components/AboutUs/About"
-import Contact from "./components/Contact/Contact"
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Home />
-      <Collections />
-      <About />
-      <Contact />
+      
+      <BrowserRouter>
+        <Navbar />
+        {routes}
+      </BrowserRouter>
     </div>
   );
 }

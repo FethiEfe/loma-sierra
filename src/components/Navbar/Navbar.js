@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-router-dom";
 import "./Navbar.css"
 
 class Navbar extends Component{
@@ -8,44 +8,11 @@ class Navbar extends Component{
             <header>
                 <h2><a href="#">Loma Sierra</a></h2>
                 <nav>
-                    <Link
-                        activeClass="active"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >Home</Link>
-
-                    <Link
-                        activeClass="active"
-                        to="collections"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >Collections</Link>
-
-
-
-                    <Link
-                        activeClass="active"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >About Us</Link>
-
-                    <Link
-                        id = "Link"
-                        activeClass="active"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >Contact</Link>
+                    <Link to = "/" >Home</Link>
+                    <Link to = "/collection" >Collections</Link>
+                    <Link to = "/about" >About Us</Link>
+                    <Link to = "/contact" >Contact</Link>
+                    
                 </nav>
             </header>
               

@@ -2,6 +2,7 @@ import React,{Component} from "react"
 import "./Collections.css"
 import bedroomImg from "../Images/bedroom.jpg"
 import bathroomImg from "../Images/bathroom.jpg"
+import {Link} from "react-router-dom"
 
 class Collections extends Component {
     render(){
@@ -10,11 +11,15 @@ class Collections extends Component {
                 <h1>Collections</h1>
                 <div className = "collection-contents">
                     <div className = "item-bedroom">
-                       <img src = {bedroomImg} />
+                        <Link to = "/bedroom-collection">
+                            <img src = {bedroomImg} />
+                        </Link>
                        <h2>Bedroom Collections</h2> 
                     </div>
                     <div className = "item-bathroom">
-                       <img src = {bathroomImg} />
+                        <Link to = "/bathroom-collection">
+                            <img src = {bathroomImg} />
+                        </Link>
                        <h2>Bathroom Collections</h2> 
                     </div>
                 </div>
