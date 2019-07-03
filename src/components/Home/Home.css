@@ -1,27 +1,12 @@
-#home{
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-   
-}
-
-img{
-  height: 80%;
-  width: 100%;
-  
-}
 
 .landing-page{
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#company-info{
-  /* height: 100vh; */
-  
-}
+
 .background-image{
     background-image: url("../Images/home-page-image.jpg");
     position: absolute;
@@ -40,20 +25,21 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:#34577F
 
     
 }
 .home-page-content h1{
     font-size: 100px
+    
 }
 .home-page-content h3{
     text-align: center;
 }
-
-.home-page-content img{
+#caret{
     border: 1px solid blue;
     margin-top: 10vh;
-    width: 50px;
+    height: 50px;
     animation: 4s bounce 2s infinite;
     
 }
@@ -70,8 +56,65 @@ img{
     }
   }
 
+#company-info{
+  margin-top: 10vh;
+  border:1px solid blue;
+
+}
  #about-us{
-   margin: 5vh 0 5vh 0;
+   margin: 15vh 0 5vh 0;
    padding: 3vh 3vw;
    border:1px solid blue;
+   z-index: -1;
  }
+
+#collection{
+  margin-bottom:10vh;
+}
+ #collection a{
+  opacity: 1;
+  
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.507);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+  
+}
+
+.card{
+  border:none;
+}
+
+.text {
+  color: black;
+  font-size: 29px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: 500;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+
+.img-fluid{
+  border:none
+}
+
