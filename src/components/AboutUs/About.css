@@ -1,4 +1,18 @@
-#about{
-    height: 100vh;
-    background-color: pink;
+.about{
+    height: 93vh;
+    padding-top: 15vh;
+    border:1px solid red; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.timeline{
+    width: 80vw;
+    /* height: 80vh; */
+    border: 1px solid red;
+}
+.css-1jv1kel p, h4{
+    display: none;
+}
+

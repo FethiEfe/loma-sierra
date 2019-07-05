@@ -42,11 +42,7 @@ class Towel extends Component {
                     <img className="col-md-4" src = "https://asyatekstilboya.com/en/wp-content/uploads/2018/11/h1.jpg"></img>
                 </div>
                 <br/>
-                <div className = "row">
-                    <img className="col-md-4" src = ""></img>
-                    <img className="col-md-4" src = ""></img>
-                    <img className="col-md-4" src = ""></img>
-                </div>
+              
                 <br/>
                 
              

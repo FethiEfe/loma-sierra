@@ -1,0 +1,9 @@
+img{
+    height: 30vh;
+    z-index: -1;
+}
+
+h2{
+    position: relative;
+    z-index: -1;
+}
