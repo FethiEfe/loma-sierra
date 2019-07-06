@@ -6,8 +6,12 @@
 }
 
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-bottom: 5vh;
    
+}
+
+#bathroom-left-tab{
+    margin-top: 1vh;
 }
 

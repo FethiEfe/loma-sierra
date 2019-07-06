@@ -13,7 +13,7 @@ class Bathroom extends Component {
               <Tab.Container  id="left-tabs-example" defaultActiveKey="first">
                     <Row>
                         <Col sm={2}>
-                            <Nav variant="pills" className="flex-column">
+                            <Nav variant="pills" className="flex-column" id= "bathroom-left-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Towel</Nav.Link>
                                 </Nav.Item>
@@ -21,7 +21,7 @@ class Bathroom extends Component {
                                     <Nav.Link eventKey="second">Bathrobe</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Hotel Towel Group</Nav.Link>
+                                    <Nav.Link eventKey="third">Hotel Group</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </Col>

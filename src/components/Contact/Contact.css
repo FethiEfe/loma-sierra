@@ -1,4 +1,15 @@
 #contact{
-    height: 100vh;
-    background-color: antiquewhite
+    height: 93vh;
+    padding-top: 15vh; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+
+#contact-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
 }

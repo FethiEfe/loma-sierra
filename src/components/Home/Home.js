@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./Home.css"
-import picture from "../Images/arrow.png"
+import arrowPicture from "../Images/arrow.png"
 import team from "../Images/team.jpg"
 import bedroomImg from "../Images/bedroom.jpg"
 import bathroomImg from "../Images/bathroom.jpg"
@@ -9,16 +9,12 @@ import { Link as Navigate, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
 
-    constructor() {
-        super();
-
-    }
 
 
     render() {
         return (
             <div id="home">
-                <div className="landing-page" id="langing-page-top">
+                <div className="first-page">
                     <div className="background-image"></div>
                     <div className="home-page-content">
                         <div>
@@ -32,20 +28,19 @@ class Home extends Component {
                             smooth={true}
                             offset={0}
                             duration={1000}
-                        ><img id="caret" src={picture} /></Navigate>
+                        ><img id="caret" src={arrowPicture} /></Navigate>
                     </div>
                 </div>
                 
                 <div className = "second-page">
-
-                
                     <div className="container" id="company-info">
-                        <div className="row container " id="about-us">
+                        <div className="row" id="about-us">
                             <div className="col-lg-6 grid z-inx">
                                 <h2 >About us </h2>
+                                <br/>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             </div>
-                            <img className="col-lg-6 grid z-inx" src={team}></img>
+                            <img className="col-lg-6 grid" src={team}></img>
                         </div>
 
 

@@ -1,7 +1,12 @@
 .bathroom{
-    /* height: 100vh; */
+ 
     padding-top: 15vh; 
    
 
 
+}
+
+#bathroom-left-tab{
+    margin-top: 1vh;
+    
 }

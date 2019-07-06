@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import "./Bedroom.css"
 import {Nav, Col,Tab,Row,Sonnet} from "react-bootstrap"
 import DuvetCover from "./Products/DuvetCover/DuvetCover.js"
-import SofaCover from "./Products/SofaCover/SofaCover"
 import Bedlinen from "./Products/Bedlinen/Bedlinen"
 import Sheet from "./Products/Sheet/Sheet"
 import Mattress from "./Products/MattressPad/MattressPad"
@@ -21,13 +20,11 @@ class Bedroom extends Component {
                 <Tab.Container  id="left-tabs-example" defaultActiveKey="first">
                     <Row>
                         <Col sm={2}>
-                            <Nav variant="pills" className="flex-column">
+                            <Nav variant="pills" className="flex-column" id= "bathroom-left-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Duver Cover Set</Nav.Link>
                                 </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="second">Sofa Cover</Nav.Link>
-                                </Nav.Item>
+                                
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">Bedlinen</Nav.Link>
                                 </Nav.Item>
@@ -35,7 +32,7 @@ class Bedroom extends Component {
                                     <Nav.Link eventKey="fourth">Sheet</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="fifth">Alez-Mattress Pad</Nav.Link>
+                                    <Nav.Link eventKey="fifth">Mattress Pad</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="sixth">Quilt</Nav.Link>
@@ -51,9 +48,6 @@ class Bedroom extends Component {
                                     <DuvetCover />
                                 </Tab.Pane>
 
-                                <Tab.Pane eventKey="second">
-                                    <SofaCover/>
-                                </Tab.Pane>
 
                                 <Tab.Pane eventKey="third">
                                     <Bedlinen/>
