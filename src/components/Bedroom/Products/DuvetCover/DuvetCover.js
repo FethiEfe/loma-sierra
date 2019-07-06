@@ -4,7 +4,7 @@ import "./DuvetCover.css"
 class DuvetCover extends Component {
     render(){
         return(
-            <div >
+            
                 <div className = "duvet-covers">
                     <h2>Duvet Covers</h2>
                     <div className = "row">
@@ -76,7 +76,7 @@ class DuvetCover extends Component {
                     
                     
                 </div>
-            </div>
+            
         )
     }
 }

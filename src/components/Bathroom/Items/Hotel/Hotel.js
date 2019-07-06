@@ -4,7 +4,7 @@ import "./Hotel.css"
 class Hotel extends Component {
     render(){
         return(
-            <div className = "pillow">
+            <div className = "hotel-group">
               <h2>Hotel Group Collection</h2>
                 <div className = "row">
                     <img className="col-md-4" src = "https://asyatekstilboya.com/en/wp-content/uploads/2018/11/1-1.jpg"></img>

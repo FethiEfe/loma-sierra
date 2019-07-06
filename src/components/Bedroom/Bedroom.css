@@ -1,15 +1,19 @@
+html,
+body {
+ height: 100%;
+ position: relative;
+}
 .bedroom{
-
-    padding-top: 15vh; 
+    position: relative;
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 50px;  
+    overflow: hidden;
  
     
 }
 
-.container{
-    /* border: 1px solid red; */
-    margin-bottom: 5vh;
-   
-}
+
 
 #bathroom-left-tab{
     margin-top: 1vh;

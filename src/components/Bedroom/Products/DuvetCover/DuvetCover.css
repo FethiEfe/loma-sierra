@@ -1,3 +1,13 @@
+html, body {
+ height: 100%;
+ position: relative;
+}
+.duvet-covers{
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: 20px;
+  
+}
 .duvet-covers img{
     z-index: -1;
 }

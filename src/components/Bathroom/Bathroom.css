@@ -1,9 +1,13 @@
+html,body {
+ height: 100%;
+ position: relative;
+}
 .bathroom{
- 
-    padding-top: 15vh; 
-   
-
-
+    position: relative;
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 50px;  
+    overflow: hidden;
 }
 
 #bathroom-left-tab{

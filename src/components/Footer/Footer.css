@@ -1,6 +1,14 @@
+
 .footer{
     background-color: #34495e;
     color: white;
-    height: 7vh ;
+    height: 50px;
+    margin-top: -50px;
+    position: relative;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    padding-top:10px; 
+  
     
 }

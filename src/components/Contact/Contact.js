@@ -52,7 +52,7 @@ class Contact extends Component {
     render() {
         return (
             <div id="contact">
-                <div className="container">
+                <div className="container" id="contact-form">
                     <h1 id ="contact-title">Let's Get In Touch!</h1>
                     <Form>
                         <Form.Group>
