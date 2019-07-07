@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import "./Contact.css"
 import axios from "axios"
-import { Form, Button, Row, Col } from "react-bootstrap"
+import { Form, Button } from "react-bootstrap"
 import swal from 'sweetalert';
 
 

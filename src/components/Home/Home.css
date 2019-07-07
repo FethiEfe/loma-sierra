@@ -83,12 +83,12 @@
 /* Second page */
 
 .second-page{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-top:10vh
 }
 
 #company-info{
-  border:1px solid black;
+  /* border:1px solid black; */
 }
  #about-us{
    margin: 5vh 0 0 0;
@@ -231,12 +231,12 @@ margin-bottom: 3vh;
 /* Second page */
 
 .second-page{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-top:10vh
 }
 
 #company-info{
-  border:1px solid black;
+  /* border:1px solid black; */
 }
  #about-us{
    margin: 5vh 0 0 0;

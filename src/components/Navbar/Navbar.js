@@ -1,8 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom";
 import "./Navbar.css"
-import { Icon } from 'react-icons-kit'
-import { arrow_down } from 'react-icons-kit/ikons/arrow_down'
 
 
 

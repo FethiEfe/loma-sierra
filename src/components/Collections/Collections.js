@@ -12,13 +12,13 @@ class Collections extends Component {
                 <div className = "collection-contents">
                     <div className = "item-bedroom">
                         <Link to = "/bedroom-collection">
-                            <img src = {bedroomImg} />
+                            <img alt="pic" src = {bedroomImg} />
                         </Link>
                        <h2>Bedroom Collections</h2> 
                     </div>
                     <div className = "item-bathroom">
                         <Link to = "/bathroom-collection">
-                            <img src = {bathroomImg} />
+                            <img alt="pic" src = {bathroomImg} />
                         </Link>
                        <h2>Bathroom Collections</h2> 
                     </div>

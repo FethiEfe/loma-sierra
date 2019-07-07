@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./Footer.css"
-import StickyFooter from 'react-sticky-footer';
+
 
 class Footer extends Component {
     render() {

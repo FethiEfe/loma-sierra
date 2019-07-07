@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import "./Bedroom.css"
-import {Nav, Col,Tab,Row,Sonnet} from "react-bootstrap"
+import {Nav, Col,Tab,Row} from "react-bootstrap"
 import DuvetCover from "./Products/DuvetCover/DuvetCover.js"
 import Bedlinen from "./Products/Bedlinen/Bedlinen"
 import Sheet from "./Products/Sheet/Sheet"
@@ -14,12 +14,12 @@ class Bedroom extends Component {
     render() {
         return (
             <div className="bedroom">
-                <div className="container">
+                <div className="container ">
 
                
                     <Tab.Container  id="left-tabs-example" defaultActiveKey="first">
                         <Row>
-                            <Col sm={2}>
+                            <Col sm={3}>
                                 <Nav variant="pills" className="flex-column" id= "bathroom-left-tab">
                                     <Nav.Item>
                                         <Nav.Link eventKey="first">Bedlinen</Nav.Link>
@@ -42,7 +42,7 @@ class Bedroom extends Component {
                                     </Nav.Item>
                                 </Nav>
                             </Col>
-                            <Col sm={10}>
+                            <Col sm={9}>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
                                         <Bedlinen/>

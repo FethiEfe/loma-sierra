@@ -12,31 +12,15 @@ class About extends Component {
                 
                     <Timeline >
                         <Event title={"About Us"} >
-                            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                            id est laborum.
+                        Our company is interested in eCommerce while improving business experience. We manufacture home textile products according to customers requirements and offer them in many eCommerce platforms like Amazon, Ebay and Wayfair.
+
+The most important goal is manufacturing with best raw materials and keep customer contentment high for us.
                         </Event>
                         <Event  title={"Our Vision"} >
-                            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                            id est laborum.
+                        To be a leading textile company that supports economic development, with a social and environmental sustainable policy, respects its suppliers, serves to world brands with its own designs, believes in the need to have quality systems in the product quality and creates the largest employment in its region.
                         </Event>
                         <Event  title={"Our Mission"} >
-                            dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                            id est laborum.
+                        To be a pioneer company with a system that is preferred by its customers with its high employment and supply chain, growing with its team and using a technology at every stage of production and to improve customer satisfaction, to implement our Quality Management System efficiently with the participation of our employees and to continuously improve its effectiveness.
                         </Event>
                     </Timeline>
                     </div>
