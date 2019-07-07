@@ -6,6 +6,7 @@ import Hotel from "./Items/Hotel/Hotel"
 import Bathrobe from "./Items/Bathrope/Bathrope"
 
 class Bathroom extends Component {
+    
     render(){
         return(
             <div className = "bathroom">
@@ -15,10 +16,10 @@ class Bathroom extends Component {
                         <Col sm={2}>
                             <Nav variant="pills" className="flex-column" id= "bathroom-left-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Towel</Nav.Link>
+                                    <Nav.Link eventKey="first">Bathrobe</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Bathrobe</Nav.Link>
+                                    <Nav.Link eventKey="second">Towel</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">Hotel Group</Nav.Link>
@@ -28,11 +29,11 @@ class Bathroom extends Component {
                         <Col sm={10}>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
-                                    <Towel />
+                                    <Bathrobe/>
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="second">
-                                    <Bathrobe/>
+                                    <Towel />
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="third">

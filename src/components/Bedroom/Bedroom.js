@@ -22,11 +22,11 @@ class Bedroom extends Component {
                             <Col sm={2}>
                                 <Nav variant="pills" className="flex-column" id= "bathroom-left-tab">
                                     <Nav.Item>
-                                        <Nav.Link eventKey="first">Duver Cover Set</Nav.Link>
+                                        <Nav.Link eventKey="first">Bedlinen</Nav.Link>
                                     </Nav.Item>
                                     
                                     <Nav.Item>
-                                        <Nav.Link eventKey="third">Bedlinen</Nav.Link>
+                                        <Nav.Link eventKey="third">Duver Cover Set</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link eventKey="fourth">Sheet</Nav.Link>
@@ -45,12 +45,12 @@ class Bedroom extends Component {
                             <Col sm={10}>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                        <DuvetCover />
+                                        <Bedlinen/>
                                     </Tab.Pane>
 
 
                                     <Tab.Pane eventKey="third">
-                                        <Bedlinen/>
+                                        <DuvetCover />
                                     </Tab.Pane>
 
                                     <Tab.Pane eventKey="fourth">

@@ -79,6 +79,7 @@
         background-color: white;
         box-shadow: 10px 1px 5px rgb(73, 73, 73);
         margin-bottom: 10vh;
+        z-index: 1000;
     }
 
     @keyframes fade {

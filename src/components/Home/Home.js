@@ -4,18 +4,17 @@ import arrowPicture from "../Images/arrow.png"
 import team from "../Images/team.jpg"
 import bedroomImg from "../Images/bedroom.jpg"
 import bathroomImg from "../Images/bathroom.jpg"
+import mobileHomeImg from "../Images/mobile-home.jpg"
 import { Link } from "react-router-dom"
 import { Link as Navigate, animateScroll as scroll } from "react-scroll";
 
 class Home extends Component {
-
-
-
     render() {
         return (
             <div id="home">
                 <div className="first-page">
                     <div className="background-image"></div>
+                    <img id ="mobileHomeImg" src = {mobileHomeImg}/>
                     <div className="home-page-content">
                         <div>
                             <h1>LOMA SIERRA</h1>
@@ -50,19 +49,19 @@ class Home extends Component {
                             <h1 id ="title-collection">Collections</h1>
 
                             <div className="row">
-                                <div className="col-sm-6 grid card" >
-                                    <Link to="/bedroom-collection">
+                                <div className="col-lg-6 grid card" id="bed-col">
+                                    <Link to="/bedroom-collection" >
                                         <img className="img-fluid" src={bedroomImg} alt="Avatar" />
                                         <div className="overlay img-fluid">
                                             <div className="text">Bedroom Collection</div>
                                         </div>
                                     </Link>
                                 </div>
-
+                              
                                 <div className="col-lg-6 grid card">
                                     <Link to="/bathroom-collection">
                                         <img className="img-fluid" src={bathroomImg} alt="Avatar" />
-                                        <div className="overlay">
+                                        <div className="overlay img-fluid">
                                             <div className="text">Bathroom Collection</div>
                                         </div>
                                     </Link>
